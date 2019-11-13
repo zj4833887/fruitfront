@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+html,body {
+    width: 100%
+}
+#container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#item-listbox {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+    /* 分类左侧 开始 */
+
+.classify-left {
+    width: 30%;
+    float: left;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.classify-left-box {
+    width: 100%;
+    overflow: hidden;
+}
+
+.classify-left-top {
+    width: 100%;
+    border-bottom: solid 1px #F4F4F4;
+}
+
+.classify-left-bottom {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    overflow-y: auto;
+    border-right: 1px solid #F4F4F4;
+    text-align: center;
+    box-sizing: border-box;
+}
+.content-list{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:1.2rem;
+    bottom: 1rem;
+}
+.left-bottom-item {
+    position: relative;
+    display: block;
+    font-weight: 600;
+    width: 100%;
+    font-size: 0.28rem;
+    line-height: 0.8rem;
+    border-bottom: solid 1px #F4F4F4;
+    box-sizing: border-box;
+}
+
+.active:after {
+    content: "";
+    width: 0.06rem;
+    height: 0.6rem;
+    background-color: #FF9201;
+    position: absolute;
+    top: 0.1rem;
+    left: 0;
+}
+
+
+/* 分类左侧 结束 */
+
+
+/* 分类右侧开始 */
+
+.classify-right {
+    position: relative;
+    top: 0.11rem;
+    width: 70%;
+    height: 100%;
+    float: right;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.classify-right-box {
+    width: 100%;
+    height: 100%;
+}
+.van-pull-refresh{
+    height: 100%;
+}
+.classify-right-center {
+    position: fixed;
+    top: 0.9rem;
+    right: 0;
+    width: 70%;
+    height: 0.8rem;
+    float: left;
+    border-bottom: solid 1px #F4F4F4;
+    background-color: white;
+    z-index: 999;
+}
+
+.right-center-item {
+    width: 33.333333%;
+    height: 100%;
+    line-height: 0.8rem;
+    text-align: center;
+    font-size: 0.24rem;
+    /* font-weight: 600; */
+    float: left;
+    border-right: solid 1px #F4F4F4;
+    box-sizing: border-box;
+    color: black;
+}
+
+.sort {
+    position: absolute;
+    top: -0.2rem;
+    right: 0.2rem;
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-top: 0.25rem;
+}
+
+.sort>img {
+    width: 100%;
+}
+
+.center-bottom-item {
+    width: 100%;
+    height: 1.6rem;
+    border-bottom: solid 1px #F4F4F4;
+    box-sizing: border-box;
+}
+
+.center-item-img {
+    width: 1.6rem;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+
+.center-item-img>img {
+    width: 1.2rem;
+    margin-top: 0.2rem;
+}
+
+.center-item-wz {
+    margin-top: 0.1rem;
+    font-size: 0.28rem;
+    /* font-weight: 600; */
+    line-height: 0.4rem;
+    color: black;
+}
+
+.center-item-z {
+    width: 3.52rem;
+    overflow: hidden;
+}
+
+.center-item-price {
+    font-size: 0.28rem;
+    color: #FF9201;
+    line-height: 0.6rem;
+    margin-top: 0.2rem;
+    float: left;
+}
+
+.center-item-num {
+    float: right;
+    margin-top: 0.3rem;
+    margin-right: 0.1rem;
+}
+
+.jian {
+    width: 0.4rem;
+    height: 0.4rem;
+    float: left;
+}
+
+.jia {
+    width: 0.4rem;
+    height: 0.4rem;
+    float: left;
+}
+
+.jian>img {
+    width: 100%;
+}
+
+.jia>img {
+    width: 100%;
+}
+
+.shuliang {
+    text-align: center;
+    font-size: 0.28rem;
+    line-height: 0.4rem;
+    float: left;
+}
+
+
+/* 分类右侧结束 */
+
+
+/* 隐藏列表开始 */
+
+.hidden-list {
+    position: fixed;
+    left: 30%;
+    top: 1.7rem;
+    width: 70%;
+    height: 0;
+    box-sizing: border-box;
+    background-color: white;
+    transition: height 2s;
+    overflow: hidden;
+    z-index: 9999;
+    display: none;
+}
+
+.hidden-item {
+    width: 30%;
+    height: 0.44rem;
+    border: solid 1px #EFEFEF;
+    box-sizing: border-box;
+    border-radius: 0.06rem;
+    line-height: 0.44rem;
+    font-size: 0.24rem;
+    text-align: center;
+    margin: 0.1rem 0 0.2rem 0.1rem;
+    float: left;
+}
+
+.hidden-item:nth-child(1) {
+    border-color: #FF9201;
+    color: #FF9201;
+}
+
+
+/* 隐藏列表结束 */
+/* 下拉和上拉 */
+.shangla {
+    left: 0;
+    bottom: 0;
+}
+.xiala{
+    left: 0;
+    top: 0;
+}
+.commen{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 50px;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+}
+/* 下拉和上拉 */

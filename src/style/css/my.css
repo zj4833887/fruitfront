@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F7f7f7;
+}
+
+.big-box {
+    background-color: #F7f7f7;
+}
+
+
+/*头部的开始 */
+
+.big-banner {
+    width: 100%;
+    /* height: 2.6rem; */
+}
+
+.big-banner img {
+    width: 100%;
+    /* height: 2.6rem; */
+}
+
+.banner-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 2.6rem; */
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+
+.banner-box1 {
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    margin-top: 0.6rem;
+    border: 0.02rem solid #D7D1D1;
+    float: left;
+}
+
+.banner-box1 img {
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+}
+
+.banner-box2 {
+    margin-top: 1.2rem;
+    margin-left: 1.6rem;
+}
+
+.banner-box2 span {
+    color: white;
+}
+.Set-up{
+    width: 0.5rem;
+    height: 0.5rem;
+    font-size: 30px;
+    float:right;
+    margin-top: 0.2rem;
+}
+
+/* 头部的结束 */
+
+
+/* 待付款部分开始 */
+
+.pay-box {
+    width: 100%;
+    padding: 0.3rem 0;
+    margin: 0.1rem 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pay-box1 img {
+    width: 0.46rem;
+    height: 0.46rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.pay-box1 span {
+    font-size: 14px;
+    color: #797778;
+}
+
+
+/* 待付款部分结束 */
+
+
+/* 优惠卷的开始 */
+
+.person-juan {
+    width: 100%;
+    height: 0.9rem;
+    padding: 0 0.24rem;
+    background-color: white;
+    box-sizing: border-box;
+    border-bottom: 0.02rem solid #E6E6E6;
+    overflow: hidden;
+}
+
+.juan-box1 img {
+    width: 0.46rem;
+    height: 0.46rem;
+    display: block;
+    float: left;
+    margin-top: 0.2rem;
+}
+
+.juan-box1 span {
+    height: 0.3rem;
+    font-size: 0.3rem;
+    color: #797778;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+
+/* 优惠卷的结束 */
+
+
+/* 退出登录的开始 */
+
+.person-last {
+    width: 6.8rem;
+    height: 0.85rem;
+    background-color: white;
+    border: 0.02px solid #E6E6E6;
+    border-radius: 0.1rem;
+    margin-top: 0.2rem;
+    margin-left: 0.3rem;
+}
+
+.person-last span {
+    font-size: 14px;
+    color: #797778;
+    text-align: center;
+    line-height: 0.85rem;
+    margin-left: 2.8rem;
+}
+
+
+/* 退出登录的结束 */

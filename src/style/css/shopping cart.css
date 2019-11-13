@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 购物车头部导航开始 */
+
+.big-box {
+    width: 100%;
+    background-color: #F6F6F4;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0.88rem;
+    background-color: #fff;
+    text-align: center;
+    line-height: 0.88rem;
+    border-bottom: 1px solid #F6F6F4;
+}
+
+.header .fanhui img {
+    position: absolute;
+    left: 0.1rem;
+    top: 0.2rem;
+    width: 0.4rem;
+    height: 0.44rem;
+}
+
+.header span {
+    font-size: 0.32rem;
+}
+
+.right-shop-cart {
+    width: 1rem;
+    font-size: 0.3rem;
+    position: absolute;
+    right: 0.15rem;
+    top: 0;
+    line-height: 0.88rem;
+}
+
+
+/* 购物车头部导航结束 */
+
+
+/* 购物车中间部分开始 */
+
+.shop-box {
+    width: 100%;
+    float: left;
+    margin-top: 0.9rem;
+    margin-bottom: 1.92rem;
+}
+
+.car-title {
+    width: 94%;
+    height: 0.8rem;
+    float: left;
+    line-height: 0.8rem;
+    padding: 0 3%;
+    background: url(../../assets/shopping/arrow-right.png)no-repeat 97% center #fff;
+    background-size: 6%;
+    margin-bottom: 0.1rem;
+    font-size: 0.28rem;
+}
+
+.cart-title {
+    width: 94%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    float: left;
+    padding: 0 3%;
+    background: url(../../assets/shopping/arrow-right1.png)no-repeat 97% center #fff;
+    background-size: 6%;
+    margin-bottom: 0.1rem;
+    font-size: 0.28rem;
+}
+
+.cart-title i {
+    float: right;
+    margin-right: 0.5rem;
+    color: #379EDE;
+    font-style: normal;
+}
+
+.list-box-shop1 {
+    width: 100%;
+    float: left;
+    margin-bottom: 0.1rem;
+}
+
+.list-box-shop2 {
+    width: 94%;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    float: left;
+    background: #fff;
+    padding: 0 3%;
+    border-top: solid 0.01rem #f9f9f9;
+}
+
+.one-quan {
+    margin-top: 0.1rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    border: solid 1px #dcdcda;
+    border-radius: 50%;
+    float: left;
+}
+
+.quanquan {
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-top: -0.04rem;
+    margin-left: 0.01rem;
+    display: none;
+}
+
+.quanquan img {
+    width: 100%;
+    height: 100%;
+}
+
+.quanquan-two {
+    width: 0.4rem;
+    height: 0.4rem;
+    display: none;
+}
+
+.quanquan-two img {
+    width: 100%;
+    height: 100%;
+}
+
+.two-quan {
+    margin-top: 0.9rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    border: solid 1px #dcdcda;
+    border-radius: 50%;
+}
+
+.quanquan-thre {
+    width: 0.4rem;
+    height: 0.4rem;
+    display: none;
+}
+
+.quanquan-thre img {
+    width: 100%;
+    height: 100%;
+}
+
+.three-quan {
+    margin-top: 1.1rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    border: solid 1px #dcdcda;
+    border-radius: 50%;
+}
+
+.four-quan {
+    margin-top: 0.2rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    border: solid 1px #dcdcda;
+    border-radius: 50%;
+    float: left;
+}
+
+.quanquan-four {
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-top: -0.16rem;
+    display: none;
+}
+
+.quanquan-four img {
+    width: 100%;
+    height: 100%;
+}
+
+.shopcart-input {
+    margin-top: 1rem !important;
+}
+
+.ziyingsp {
+    float: left;
+    margin-left: 0.1rem;
+    font-size: 0.3rem;
+}
+
+
+/* 第一个商品开始 */
+
+.index-goods {
+    width: 94%;
+    padding: 0.1rem 3%;
+    float: left;
+    background-color: #ffffff;
+    border-top: solid 0.01rem #f9f9f9;
+}
+
+.span-shopthree {
+    width: 0.6rem;
+    height: 2.4rem;
+    float: left;
+}
+
+input[type=checkbox] {
+    float: left;
+    position: relative;
+    width: 0.44rem;
+    height: 0.44rem;
+    overflow: hidden;
+}
+
+.shop-img {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.2rem 0;
+    float: left;
+}
+
+.shop-img img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.bottom-goods-textbox {
+    display: block;
+    margin-left: 2.8rem;
+    height: 2.2rem;
+}
+
+.onetext {
+    width: 100%;
+    height: 0.8rem;
+    float: left;
+    overflow: hidden;
+    line-height: 0.4rem;
+    color: #333;
+    font-size: 0.3rem;
+    margin-top: 0.2rem;
+}
+
+.price-text {
+    width: 100%;
+    color: #ff9201;
+    float: left;
+    margin-top: 0.1rem;
+    font-size: 0.36rem;
+}
+
+.price-jine {
+    font-style: normal;
+}
+
+.shop-cart-box4 {
+    width: 100%;
+    float: left;
+    margin-top: 0.1rem;
+}
+
+.left-tubiao {
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    background: url(../../assets/shopping/subtract.png)no-repeat center center;
+    background-size: 100%;
+}
+
+.numebr {
+    float: left;
+    font-size: 0.28rem;
+    line-height: 0.5rem;
+    width: 0.4rem;
+    border: none;
+    outline: none;
+    padding-left: 0.2rem;
+}
+
+.right-tbiao {
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    background: url(../../assets/shopping/add.png)no-repeat center center;
+    background-size: 100%;
+}
+
+
+/* 第二个商品开始 */
+
+.index-goods-two {
+    width: 94%;
+    padding: 0.1rem 3%;
+    float: left;
+    background-color: #fff;
+    border-top: solid 1px #f9f9f9;
+}
+
+.shop-xuanzhong-two {
+    width: 0.6rem;
+    height: 2.4rem;
+    float: left;
+}
+
+input[type=checkbox] {
+    float: left;
+    position: relative;
+    width: 0.44rem;
+    height: 0.44rem;
+    overflow: hidden;
+}
+
+.shopcart2-input {
+    margin-top: 1rem !important;
+}
+
+.shop-img2 {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.2rem 0;
+    float: left;
+}
+
+.shop-img2 img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.bottom-goods-text2-box {
+    display: block;
+    margin-left: 2.8rem;
+    height: 2.2rem;
+}
+
+.twotext {
+    width: 100%;
+    height: 0.8rem;
+    float: left;
+    overflow: hidden;
+    line-height: 0.4rem;
+    color: #333;
+    font-size: 0.3rem;
+    margin-top: 0.2rem;
+}
+
+.price2-text {
+    width: 100%;
+    color: #FF9201;
+    float: left;
+    margin-top: 0.1rem;
+    font-size: 0.36rem;
+}
+
+.price-jine2 {
+    font-style: normal;
+}
+
+.shop-car2-box5 {
+    width: 100%;
+    float: left;
+    margin-top: 0.1rem;
+}
+
+.left-1tupiao {
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    background: url(../../assets/shopping/subtract.png) no-repeat center center;
+    background-size: 100%;
+}
+
+.number1 {
+    float: left;
+    font-size: 0.28rem;
+    line-height: 0.5rem;
+    width: 0.4rem;
+    border: none;
+    outline: none;
+    padding-left: 0.2rem;
+}
+
+.right2-tubiao {
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    background: url(../../assets/shopping/add.png) no-repeat center center;
+    background-size: 100%;
+}
+
+
+/* 本店总计部分开始 */
+
+.totai {
+    width: 94%;
+    float: left;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background-color: #fff;
+    padding: 0 3%;
+    font-size: 0.28rem;
+    border-top: solid 0.01rem #f9f9f9;
+    border-bottom: solid 0.01rem #f9f9f9;
+}
+
+
+/* 底部开始 */
+
+.shop-bottom2 {
+    width: 94%;
+    height: 0.9rem;
+    position: fixed;
+    bottom: 1rem;
+    left: 0rem;
+    background-color: #FFFFFF;
+    z-index: 999;
+    padding: 0rem 3%;
+    border-bottom: 1px solid #F7F7F7;
+    line-height: 0.9rem;
+}
+
+.chekall {
+    float: left;
+    width: 1.2rem;
+}
+
+.text3 {
+    float: left;
+    font-size: 0.28rem;
+    color: #a3a3a3;
+}
+
+.text4 {
+    float: left;
+    font-size: 0.32rem;
+    font-weight: 600;
+    color: #FF9201;
+}
+
+#ckAll {
+    margin-top: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+.scrart-totai-text6 {
+    width: 1.4rem;
+    text-align: center;
+    float: right;
+    background: #FF9201;
+    height: 0.6rem;
+    margin-top: 0.14rem;
+    line-height: 0.6rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    font-size: 0.28rem;
+}
+
+.delete {
+    width: 0.92rem;
+    height: 0.92rem;
+    float: right;
+    background: url(../../assets/shopping/delete.png)no-repeat right center;
+    background-size: 40%;
+    display: none;
+}
+
+
+/* 底部结束 */
